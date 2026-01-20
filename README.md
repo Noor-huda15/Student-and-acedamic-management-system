@@ -40,7 +40,14 @@ Server: Apache (XAMPP)
 ---
 
  📂 Project Structure
-* `index.php` - Login page
-* `dashboard.php` - Main admin panel
-* `css/` - Styling files
-* `database.sql` - Database backup for easy setup
+Student-and-acedamic-management-system/
+│
+├── admin.php           # Admin dashboard and logic
+├── config.php          # Database connection settings
+├── faculty.php         # Faculty management page
+├── get_courses.php     # Logic for fetching course data
+├── index.php           # Main login or landing page
+├── logout.php          # Session termination logic
+├── student.php         # Student portal or records page
+├── README.md           # Project documentation
+└── student_and_acedamic_management_system.sql  # Database schema export
